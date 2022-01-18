@@ -8,13 +8,13 @@ pub fn is_valid(s: String) -> bool {
                 return false;
             }
         } else if c == '[' {
-            stack.push(c);            
+            stack.push(c);
         } else if c == ']' {
             if stack.pop() != Some('[') {
                 return false;
             }
         } else if c == '(' {
-            stack.push(c);                    
+            stack.push(c);
         } else if c == ')' {
             if stack.pop() != Some('(') {
                 return false;
