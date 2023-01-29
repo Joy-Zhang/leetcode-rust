@@ -1,18 +1,21 @@
-mod _344;
+mod _136;
 mod leetcode;
+mod _1313;
+mod _1598;
+mod _914;
+mod _2520;
+mod _605;
+mod _2220;
+mod _1374;
+mod _403;
+mod _352;
 
 use std::rc::Rc;
 use std::cell::RefCell;
 use crate::leetcode::TreeNode;
 
 fn main() {
-
-    let treeTestCase =  Option::from(Rc::from(RefCell::from(TreeNode {val: 0, 
-        left: Option::from(Rc::from(RefCell::from(TreeNode {val: 0, left: None, right: None}))), 
-        right: Option::from(Rc::from(RefCell::from(TreeNode {val: 1, left: None, right: None})))
-    })));
-
-    let mut case = vec!('1', '2' , '3' , '4', '5');
-    _344::reverse_string(&mut case);
-    println!("{:?}", case);
+    println!("-------------------");
+    // TODO: call fn in mods
+    println!("-------------------");
 }
